@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:Arial;
+}
+[src="Icons/user-solid.svg"] {
+    height: 30%;
+    width: 30%;
+}
+
+[src="Icons/cart-shopping-solid.svg"] {
+    height: 30%;
+    width: 30%;
+}
+[src="Icons/magnifying-glass-solid.svg"] {
+    height: 30%;
+    width: 30%;
+}
+
+.main{
+    height: 725px;
+   background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+}
+
+
+
+/**********************************NAV******************/
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.icons{
+    width: 160px;
+
+
+}
+
+.navbar_center{
+    width: 300px;
+    display: inline-block;
+   margin-left: 400px;
+}
+
+.navbar_right {
+    margin-left: 250px;
+    display: flex;
+    
+}
+
+.navbar_center span {
+   margin-left: 10px;
+    
+}
+
+
+/*********************************************/
+.section1{
+    background-color: white;
+}
+.reduction div{
+margin-top:100px;
+padding-top: 20px;
+width: 500px;
+height: 150px;
+background-color: rgb(11, 11, 15);
+
+}
+
+.reduc_droite {
+    float: right;
+    margin-right: 150px;
+}
+
+.reduc_gauche {
+    float: left;
+    margin-left: 150px;
+}
+
+
+
+.cart {
+    width: 300px;
+    height: 250px
+}
+
+.cart_image1{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f1.png)
+    
+}
+
+
+.cart_image2{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f2.png)
+    
+}
+.cart_image3{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f3.png)
+    
+}
+.cart_imag4{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f4.png)
+    
+}
+.cart_image5{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f5.png)
+    
+}
+.cart_image6{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f6.png)
+    
+}
+.cart_imag7{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f7.png)
+    
+}
+.cart_image8{
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    background-image: url(images/f8.png)
+    
+}
+
+.cart_text {
+    width: 300px;
+    height: 125px;
+    background-color: rgb(11, 11, 15);
+}
+
+
+.section2{
+    background-color: rgb(11, 11, 15);
+}
+
+
